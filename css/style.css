@@ -12,7 +12,7 @@
 
 
 .addedGradient{
-
+     border-bottom: 9px #2d3436 solid; 
     background: #000000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -27,3 +27,63 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
 .nameColor{
     color:#b71540;
 }
+.skills{
+    font-family: 'Arvo', serif;
+
+
+    
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode:forwards; 
+    -webkit-animation-fill-mode:forwards;
+  
+  
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   { left:1800px; top:0px;}
+    
+    100% {left:0px; top:0px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    0%   { left:1800px; top:0px;}
+    
+    100% {left:0px; top:0px;}
+  }
+/*skills progress bar*/
+.progress-bar {
+    width: 0;
+    animation: progress 1.5s ease-in-out forwards;
+    
+    .title {
+      opacity: 0;
+      animation: show 0.35s forwards ease-in-out 0.5s;
+    }
+  } 
+  
+  @keyframes progress {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  } 
+  @keyframes show  {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /*particular skill fonts*/
+  .eachSkill{
+    font-family: 'Exo 2', sans-serif;
+  }
