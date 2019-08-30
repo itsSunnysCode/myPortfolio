@@ -21,7 +21,7 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
 .jumbotronFont{
     font-family: 'Anton', sans-serif;
 }
-h1,h2{
+.fontColorJumbo{
     color: #ecf0f1;
 }
 .nameColor{
