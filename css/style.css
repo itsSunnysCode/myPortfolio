@@ -1,0 +1,11 @@
+.logoFont{
+    font-family: 'Hepta Slab', serif;
+    border: 4px solid black;
+    margin: 3px;
+    padding: 5px;
+}
+
+
+.headerFont{
+    font-family: 'Arvo', serif;
+}
