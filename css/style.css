@@ -88,6 +88,62 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
     font-family: 'Exo 2', sans-serif;
   }
 
- 
+ /*social icons*/
+
+ .middle{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.btnSocial{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #00060a;
+  overflow: hidden;
+  position: relative;
+}
+.btnSocial i{
+  line-height: 90px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.btnSocial:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.btnSocial::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #00060a;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.btnSocial:hover::before{
+  animation: SocialIcons 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes SocialIcons {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
 
  
