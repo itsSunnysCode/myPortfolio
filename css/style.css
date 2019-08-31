@@ -146,4 +146,29 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
   }
 }
 
- 
+ /*alert for form submission*/
+
+ .alert{
+    color:#068139;
+    display: none;
+    border: 2px solid  #7ee29e;
+    padding: 4px;
+    margin: 8px;
+    max-width: 400px;
+    background-color: #7ee29e;
+ }
+ /*profile picture css*/
+ .profile{
+    max-width: 400px;
+    max-height: 300px; 
+    border-radius: ;
+    margin: 20px;
+    margin-bottom: 50px;
+ }
+ /*about me text*/
+ .aboutMeText{
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 7px;
+ }
