@@ -173,3 +173,9 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
   padding: 7px;
   margin-bottom: 50px;
  }
+
+ /*skill icon*/
+ .skillicon{
+   max-width:70px;
+   max-height: 70px; 
+ }
