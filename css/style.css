@@ -30,7 +30,9 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
 .skills{
     font-family: 'Arvo', serif;
 
-
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
     
     position: relative;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
