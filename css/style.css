@@ -73,8 +73,8 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
 }
 .btnSocial{
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   background: #f1f1f1;
   margin: 10px;
   border-radius: 30%;
@@ -84,8 +84,8 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
   position: relative;
 }
 .btnSocial i{
-  line-height: 90px;
-  font-size: 26px;
+  line-height: 75px;
+  font-size: 30px;
   transition: 0.2s linear;
 }
 .btnSocial:hover i{
@@ -136,15 +136,16 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
     max-width: 400px;
     max-height: 300px; 
     border-radius: ;
-    margin: 20px;
+    margin-top: 20px;
     margin-bottom: 50px;
  }
  /*about me text*/
  .aboutMeText{
   font-family: 'Poppins', sans-serif;
   border: 2px solid black;
-  margin: 20px;
-  padding: 7px;
+  margin-right: 20px;
+  margin-top: 20px;
+    padding: 7px;
   margin-bottom: 50px;
  }
 
