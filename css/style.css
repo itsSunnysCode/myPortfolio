@@ -37,9 +37,9 @@ html{
 }
 .skills{
     font-family: 'Arvo', serif;
-
+    padding-top:70px; 
     margin-bottom: 20px;
-    margin-top: 20px;
+    
     margin-right: 20px;
     
     position: relative;
@@ -156,7 +156,8 @@ html{
   margin-right: 20px;
   margin-top: 20px;
     padding: 7px;
-  margin-bottom: 50px;
+   
+  
  }
 
  /*skill icon*/
