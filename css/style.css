@@ -75,7 +75,7 @@ html{
  /*social icons*/
 
  .middle{
-  position: absolute;
+  
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
@@ -94,7 +94,7 @@ html{
   position: relative;
 }
 .btnSocial i{
-  line-height: 75px;
+  line-height: 70px;
   font-size: 30px;
   transition: 0.2s linear;
 }
