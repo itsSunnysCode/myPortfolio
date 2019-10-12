@@ -37,9 +37,11 @@ html{
 }
 .skills{
     font-family: 'Arvo', serif;
-    padding-top:70px;100tom: 20px;
+    padding-top:70px;
     
-    margin-right: 2%x;  position: relative;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     animation-name: example;
@@ -142,7 +144,7 @@ html{
  .profile{
     max-width: 400px;
     max-height: 300px; 
-    border-radius: ;
+    
     margin-top: 20px;
     margin-bottom: 50px;
  }
