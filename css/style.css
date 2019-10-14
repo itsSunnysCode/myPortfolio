@@ -38,32 +38,11 @@ html{
 .skills{
     font-family: 'Arvo', serif;
     padding-top:70px;
-    
     margin-bottom: 20px;
     margin-right: 20px;
-    position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 2s;
-    animation-fill-mode:forwards; 
-    -webkit-animation-fill-mode:forwards;
-  
-  
+    position: relative;  
 }
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0%   { left:100%;}
-    
-    100% {left:0%; }
-  }
-  
-  /* Standard syntax */
-  @keyframes example {
-    0%   { left:100%;}
-    
-    100% {left:0%; }
-  }
+
 
 
   /*particular skill fonts*/
